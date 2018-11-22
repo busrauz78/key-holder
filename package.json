@@ -1,0 +1,23 @@
+{
+  "name": "key-holder",
+  "version": "1.0.0",
+  "description": "Basic Key Holder with Pure Javascript",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o public/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/busrauz/key-holder.git"
+  },
+  "keywords": [],
+  "author": "Büşra Uz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/busrauz/key-holder/issues"
+  },
+  "homepage": "https://gitlab.com/busrauz/key-holder#README",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

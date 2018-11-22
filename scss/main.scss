@@ -1,0 +1,95 @@
+@import "constant.scss";
+@import "mixin.scss";
+
+
+body{
+ background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+ font-family:Orbitron
+}
+
+
+.header{
+
+  &>nav{
+    background:rgba(0,0,0,0.5) !important;
+    min-height:82px;
+   
+img{
+  
+  width:80px;
+  height:80px;
+}
+
+  }
+}
+ .content{
+   margin-top:50px;
+   min-height:100vh;
+   form{
+   
+     padding:1rem !important;
+background:rgba(0,0,0,0.2) !important;
+.input-field{
+  label,input{
+    color:white !important;
+  }
+  button{
+    background:#12c2e9 !important;
+    font-family:Orbitron
+  }
+  
+}
+   }
+   .keyholder{
+     font-family:Montserrat;
+     .collection{
+
+       border-color:transparent;
+       border-radius:2px;
+       display:grid;
+       grid-template-columns:1fr 1fr;
+       grid-gap:10px;
+       .collection-item{
+         background:rgba(255, 255, 255,0.9);
+        .list-header{
+          display:flex;
+          align-items: center;
+          justify-content:space-between;
+          .header-list{
+            text-transform: uppercase;
+            font-size:2em;
+            color:#12c2e9
+          }
+          i{
+            font-size:2em;
+         
+            color: #f64f59;
+           
+          }
+        }
+       }
+     }
+   }
+ }
+ footer{
+  &.page-footer{
+  
+    background:rgba(255,255,255,0.4) !important;
+  color:#f64f59 !important;
+  font-weight: 600;
+  font-family: Orbitron;
+      position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+    transition:all 0.5s ease;
+    }
+    &.scroll{
+      background:rgba(255,255,255,0.8) !important;
+    }
+ }
+
+ 
+
+
+@import "responsive.scss";
